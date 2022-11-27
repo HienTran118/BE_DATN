@@ -1,0 +1,44 @@
+POST http://localhost:5000/api/car
+Content-Type: application/json
+
+{
+    "slotval": "2",
+    "uidDecin": "4564564564"
+}
+
+###
+GET http://localhost:5000/api/car
+
+
+###
+GET https://doantnbk.herokuapp.com/api/current-time
+
+
+
+###
+GET http://localhost:3000/api
+
+###
+DELETE  http://localhost:3000/api/delete
+Content-Type: application/json
+
+{
+    "startDay": "2021-11-07 00:00:" ,
+    "endDay": "2021-11-09 00:00:" 
+}
+
+###
+DELETE  http://localhost:5000/api/car
+
+###
+POST http://solar-tracking-dut.herokuapp.com/api/date
+
+{
+    "data":{
+        "currentDate":"2022-02-17T07:35:48.159+00:00",
+        "nextDate":"2022-02-18T07:35:48.159+00:00"
+    }
+}
+
+###
+GET http://localhost:5000/api/car
